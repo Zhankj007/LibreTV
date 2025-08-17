@@ -123,6 +123,8 @@ const CUSTOM_API_CONFIG = {
 // 隐藏内置黄色采集站API的变量
 const HIDE_BUILTIN_ADULT_APIS = false;
 */
+
+
 // 全局常量配置
 // const PROXY_URL = 'http://192.168.199.192:8080/proxy/'; // PROXY_URL不再需要，所有请求通过Tauri Rust命令处理
 // const HOPLAYER_URL = 'https://hoplayer.com/index.html';
@@ -243,47 +245,47 @@ const API_SITES = {
     // 这些影片和背后的产业已经使数百万男女“下海”，出卖自己的身体，甚至以此为生计。
     // 而作为观众无辜吗？毫无疑问，他们促成了黄色产业链的再生产。
     // 我们提供此警告，是希望您能认清这些内容的本质——它们是压迫和奴役的工具，而非娱乐。
-    // ckzy: {
-    //     api: 'https://www.ckzy1.com',
-    //     name: 'CK资源',
-    //     adult: true
-    // },
-    // jkun: {
-    //     api: 'https://jkunzyapi.com',
-    //     name: 'jkun资源',
-    //     adult: true
-    // },
-    // bwzy: {
-    //     api: 'https://api.bwzym3u8.com',
-    //     name: '百万资源',
-    //     adult: true
-    // },
-    // souav: {
-    //     api: 'https://api.souavzy.vip',
-    //     name: 'souav资源',
-    //     adult: true
-    // },
-    // r155: {
-    //     api: 'https://155api.com',
-    //     name: '155资源',
-    //     adult: true
-    // },
-    // lsb: {
-    //     api: 'https://apilsbzy1.com',
-    //     name: 'lsb资源',
-    //     adult: true
-    // },
-    // huangcang: {
-    //     api: 'https://hsckzy.vip',
-    //     name: '黄色仓库',
-    //     adult: true,
-    //     detail: 'https://hsckzy.vip'
-    // },
-    // yutu: {
-    //     api: 'https://yutuzy10.com',
-    //     name: '玉兔资源',
-    //     adult: true
-    // },
+    ckzy: {
+        api: 'https://www.ckzy1.com',
+        name: 'CK资源',
+        adult: true
+    },
+    jkun: {
+        api: 'https://jkunzyapi.com',
+        name: 'jkun资源',
+        adult: true
+    },
+    bwzy: {
+        api: 'https://api.bwzym3u8.com',
+        name: '百万资源',
+        adult: true
+    },
+    souav: {
+        api: 'https://api.souavzy.vip',
+        name: 'souav资源',
+        adult: true
+    },
+    r155: {
+        api: 'https://155api.com',
+        name: '155资源',
+        adult: true
+    },
+    lsb: {
+        api: 'https://apilsbzy1.com',
+        name: 'lsb资源',
+        adult: true
+    },
+    huangcang: {
+        api: 'https://hsckzy.vip',
+        name: '黄色仓库',
+        adult: true,
+        detail: 'https://hsckzy.vip'
+    },
+    yutu: {
+        api: 'https://yutuzy10.com',
+        name: '玉兔资源',
+        adult: true
+    },
 };
 
 // 添加聚合搜索的配置选项
@@ -369,35 +371,35 @@ const CUSTOM_API_CONFIG = {
 const HIDE_BUILTIN_ADULT_APIS = false;
 
 // 豆瓣排行榜 API 类型 ID 映射
-const DOUBAN_CHART_GENRE_IDS = {
-    "剧情": 11,
-    "喜剧": 24,
-    "动作": 5,
-    "爱情": 13,
-    "科幻": 17,
-    "动画": 25,
-    "悬疑": 10,
-    "惊悚": 19,
-    "恐怖": 20,
-    "纪录片": 1,
-    "短片": 23,
-    "情色": 6,
-    "同性": 26,
-    "音乐": 14,
-    "歌舞": 7,
-    "家庭": 28,
-    "儿童": 8,
-    "传记": 2,
-    "历史": 4,
-    "战争": 22,
-    "犯罪": 3,
-    "西部": 27,
-    "奇幻": 16,
-    "冒险": 15,
-    "灾难": 12,
-    "武侠": 29,
-    "古装": 30,
-    "运动": 18,
-    "黑色电影": 31
-    // IDs 9 和 21 似乎不存在
-};
+// const DOUBAN_CHART_GENRE_IDS = {
+//     "剧情": 11,
+//     "喜剧": 24,
+//     "动作": 5,
+//     "爱情": 13,
+//     "科幻": 17,
+//     "动画": 25,
+//     "悬疑": 10,
+//     "惊悚": 19,
+//     "恐怖": 20,
+//     "纪录片": 1,
+//     "短片": 23,
+//     "情色": 6,
+//     "同性": 26,
+//     "音乐": 14,
+//     "歌舞": 7,
+//     "家庭": 28,
+//     "儿童": 8,
+//     "传记": 2,
+//     "历史": 4,
+//     "战争": 22,
+//     "犯罪": 3,
+//     "西部": 27,
+//     "奇幻": 16,
+//     "冒险": 15,
+//     "灾难": 12,
+//     "武侠": 29,
+//     "古装": 30,
+//     "运动": 18,
+//     "黑色电影": 31
+//     // IDs 9 和 21 似乎不存在
+// };
